@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(mouseImg/grass-texture.jpg);
+    background-size: 600px;
+    font-family: "Poppins", sans-serif;
+}
+
+.gopher-img, #moveButton {
+    background-color: rgba(0,0,0,0.0);
+}
+
+.gopher-img {
+    width: 500px;
+}
+
+#score, #output {
+    text-align: center;
+}
+
+#moveButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    cursor: pointer;
+  }
+
+ 
+
+ #nextLevel {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    width: 100px;
+    height: 42px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    z-index: 2;
+    margin-top: -100px;
+ }
+
+ .return {
+    margin-left: 10px;
+    margin-top: 5px;
+    position: absolute;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 7px;
+    border: 2px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    z-index: 1;
+ }
+
+ .return:hover {
+    filter: brightness(80%);
+ }
