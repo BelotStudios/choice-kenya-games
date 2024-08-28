@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(25, 25, 25);
+    font-family: "Poppins", sans-serif;
+}
+
+.logo {
+    height: 65px;
+    z-index: 2;
+    position: fixed;
+    margin-top: -5%;
+    background-color: rgb(241, 241, 241);
+    padding-right: 100vw;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.whack-a-mole-thumbnail, .typing-tactical-thumbnail {
+    position: relative;
+    width: 40%;
+    margin-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border: 3px solid black;
+}
+
+.whack-a-mole-thumbnail:hover, .typing-tactical-thumbnail:hover {
+    filter: brightness(80%);
+}
+
+li p {
+    width: 40%;
+    background-color: rgb(10, 10, 10);
+    color: rgb(241, 241, 241);
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 35px;
+    text-align: center;
+    padding: 8px;
+}
+
+.game-list {
+    list-style-type: none;
+}
+/*
+.game-h1 {
+    position: fixed;
+    text-align: left;
+    width: 100%;
+    margin-top: -5%;
+    background-color: rgb(231, 228, 232);
+    color: rgb(14, 14, 14);
+    z-index: 1;
+    padding: 8.1px;
+    box-shadow: 1px 3px 8px black;
+    padding-left: 90px;
+}*/
