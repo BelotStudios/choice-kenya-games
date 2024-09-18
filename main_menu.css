@@ -21,7 +21,7 @@ body {
     padding-bottom: 5px;
 }
 
-.whack-a-mole-thumbnail, .typing-tactical-thumbnail {
+.whack-a-mole-thumbnail, .typing-tactical-thumbnail, .coming-soon-thumbnail {
     position: relative;
     width: 40%;
     margin-top: 5%;
