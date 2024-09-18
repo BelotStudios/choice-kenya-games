@@ -33,7 +33,7 @@ body {
     border: 3px solid black;
 }
 
-.whack-a-mole-thumbnail:hover, .typing-tactical-thumbnail:hover {
+.whack-a-mole-thumbnail:hover, .typing-tactical-thumbnail:hover, .coming-soon-thumbnail:hover {
     filter: brightness(80%);
 }
 
